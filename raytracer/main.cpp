@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     const int image_width = 256;
     const int image_height = 256;
     
-    for(int j = image_height -1; j >=0; j--){
+    for(int j = image_height -1; j >=0; --j){
         int i = 0;
         
     }
