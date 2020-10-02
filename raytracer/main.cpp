@@ -9,6 +9,7 @@
 #include <iostream>
 #include "color.hpp"
 #include "vec3.hpp"
+#include "ray.hpp"
 
 
 int main(int argc, const char * argv[]) {
