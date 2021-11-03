@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "vec3.hpp"
+
 class ray{
 public:
     ray(){}

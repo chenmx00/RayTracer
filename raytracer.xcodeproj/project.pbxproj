@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A0EE97024F6AB1D008FDDA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A0EE96F24F6AB1D008FDDA5 /* main.cpp */; };
-		0ADD4FCF25207F1400B993B0 /* ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD4FCD25207F1400B993B0 /* ray.cpp */; };
+		0A62D11327331DC900E96E1B /* color.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD4FC525205EE000B993B0 /* color.hpp */; };
+		0A62D11527331DC900E96E1B /* vec3.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD4FC12520182B00B993B0 /* vec3.hpp */; };
+		0A62D11627331DC900E96E1B /* ray.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADD4FCE25207F1400B993B0 /* ray.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,7 +112,7 @@
 				};
 			};
 			buildConfigurationList = 0A0EE96724F6AB1D008FDDA5 /* Build configuration list for PBXProject "raytracer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -132,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADD4FCF25207F1400B993B0 /* ray.cpp in Sources */,
+				0A62D11327331DC900E96E1B /* color.hpp in Sources */,
+				0A62D11527331DC900E96E1B /* vec3.hpp in Sources */,
+				0A62D11627331DC900E96E1B /* ray.hpp in Sources */,
 				0A0EE97024F6AB1D008FDDA5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -244,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
