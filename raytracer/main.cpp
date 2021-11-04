@@ -20,6 +20,7 @@ color ray_color(const ray& r){
 }
 
 int main(int argc, const char * argv[]) {
+    freopen("image.ppm", "w", stdout);
     // Image size
     const auto aspect_ratio = 16.0 / 9.0;
     const int image_width = 400;
@@ -38,9 +39,9 @@ int main(int argc, const char * argv[]) {
     
     
     //Render
-    std::cout << "p3\n" << image_width << ' ' << image_height << "\n255\n";
+    std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
     
-    for(int j = image_height -1; j >=0; --j){
+    for(int j = image_height - 1; j >= 0; --j){
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
         for(int i = 0; i < image_width; ++i){
             auto u = double(i) / (image_width-1);
