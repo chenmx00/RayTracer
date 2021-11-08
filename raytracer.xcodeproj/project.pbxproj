@@ -39,6 +39,7 @@
 		0A62D11D2737531A00E96E1B /* hittable_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hittable_list.cpp; sourceTree = "<group>"; };
 		0A62D11E2737531A00E96E1B /* hittable_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hittable_list.hpp; sourceTree = "<group>"; };
 		0A62D12027375C4800E96E1B /* util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = util.hpp; sourceTree = "<group>"; };
+		0A62D1252739D97A00E96E1B /* camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = camera.hpp; sourceTree = "<group>"; };
 		0ADD4FC02520182B00B993B0 /* vec3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
 		0ADD4FC12520182B00B993B0 /* vec3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
 		0ADD4FC425205EE000B993B0 /* color.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 				0A62D11D2737531A00E96E1B /* hittable_list.cpp */,
 				0A62D11E2737531A00E96E1B /* hittable_list.hpp */,
 				0A62D12027375C4800E96E1B /* util.hpp */,
+				0A62D1252739D97A00E96E1B /* camera.hpp */,
 			);
 			path = raytracer;
 			sourceTree = "<group>";
